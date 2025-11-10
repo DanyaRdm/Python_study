@@ -30,3 +30,11 @@ c = int(input())  # 3
 n = int(input())  # 4
 print(min(a,b,c,n))  # 1
 print(max(a,b,c,n))  # 4
+
+# Слон ходит только по вертикали или горизонтали
+x1, y1, x2, y2 = int(input()), int(input()), int(input()), int(input())
+
+if (x1 - y1 == x2 - y2) or (x1 + y1 == x2 + y2):
+    print('YES')
+else:
+    print('NO')

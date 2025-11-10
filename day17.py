@@ -138,3 +138,5 @@ else:
 s = input()
 if '.' not in s:
     print('Введенная строка не содержит символа точки')
+
+print('I love u')
